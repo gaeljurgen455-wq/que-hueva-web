@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUE HUEVA - Huevos de Calidad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="img/logo-que-hueva.jpeg" alt="Logo de Que Hueva Huevos" class="logo">
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#inicio" class="active">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#recetas">Recetas</a></li>
+                <li><a href="#nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#" class="btn-recetas">Ver Recetas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="inicio">
+        <section class="hero-section">
+            <img src="img/cesta-huevos.jpeg" alt="Cesta de huevos frescos, algunos rotos" class="hero-image">
+            <div class="cta-cards-container">
+                <div class="cta-card">
+                    <img src="img/logo-que-hueva-pequeno.jpeg" alt="Logo pequeño" class="cta-logo">
+                    <p><a href="#nosotros">Sobre Nosotros</a></p>
+                </div>
+                <div class="cta-card">
+                    <i class="fas fa-egg"></i>
+                    <p><a href="#productos">Explorar Productos</a></p>
+                </div>
+                <div class="cta-card">
+                    <i class="fas fa-utensils"></i>
+                    <p><a href="#recetas">Ver Recetas</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="productos" class="products-section">
+            <h2>Productos Destacados</h2>
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="img/huevo-clasico.jpeg" alt="Huevos Clásicos">
+                    <h3>Clásicos</h3>
+                    <p>La base de todas tus comidas. Frescura y calidad garantizada.</p>
+                    <p class="product-price">12 unidades</p>
+                    <a href="#" class="btn-comprar">COMPRA</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/huevo-organico.jpeg" alt="Huevos Orgánicos">
+                    <h3>Orgánicos</h3>
+                    <p>Gallinas libres y alimentadas con granos orgánicos certificados.</p>
+                    <p class="product-price">6 unidades</p>
+                    <a href="#" class="btn-comprar">COMPRA</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/huevo-codorniz.jpeg" alt="Huevos de Codorniz">
+                    <h3>Codorniz</h3>
+                    <p>Pequeños y perfectos para aperitivos gourmet o ensaladas.</p>
+                    <p class="product-price">24 unidades</p>
+                    <a href="#" class="btn-comprar">COMPRA</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="recetas" class="recipes-section">
+            <h2>Recetas Populares</h2>
+            <div class="recipe-grid">
+
+                <div class="recipe-card">
+                    <img src="img/tortilla.jpeg" alt="Tortilla Española">
+                    <h4>Tortilla Española</h4>
+                    <p>Un plato básico. Con solo huevos, patatas y cebolla.</p>
+                    <a href="#" class="btn-ver-receta">VER RECETA</a>
+                </div>
+
+                <div class="recipe-card">
+                    <img src="img/rancheros.jpeg" alt="Huevos Rancheros">
+                    <h4>Huevos Rancheros</h4>
+                    <p>La opción ideal para un desayuno mexicano auténtico.</p>
+                    <a href="#" class="btn-ver-receta">VER RECETA</a>
+                </div>
+
+                <div class="recipe-card">
+                    <img src="img/benedictinos.jpeg" alt="Huevos Benedictinos">
+                    <h4>Benedictinos</h4>
+                    <p>Elegancia y sabor, con la salsa holandesa perfecta.</p>
+                    <a href="#" class="btn-ver-receta">VER RECETA</a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="contact-content">
+            <div class="map-container">
+                <img src="img/mapa-simulado.jpeg" alt="Ubicación en el mapa" style="width: 100%; height: 200px; background-color: #ddd;">
+                <p class="address-text">Encuéntranos en: Calle Ficticia #123, Ciudad Huevo</p>
+            </div>
+
+            <form class="contact-form">
+                <h4>Contáctanos</h4>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensaje"></textarea>
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
+            </form>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 QUE HUEVA. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
